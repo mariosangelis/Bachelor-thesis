@@ -1,0 +1,3 @@
+sensors=camera/gpu
+position=edge
+exit

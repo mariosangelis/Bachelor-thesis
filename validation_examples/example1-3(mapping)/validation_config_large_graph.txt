@@ -1,0 +1,1081 @@
+----global configuration----
+components: F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,F13,F14,F15,F16,F17,F18,F19,F20,F21,F22,F23,F24,F25,F26,F27,F28,F29,F30,F31,F32,F33,F34,F35,F36,F37,F38,F39,F40,F41,F42,F43,F44,F45,F46,F47,F48,F49
+scale: as_many_as_possible
+
+component: F1
+----general info----
+source_files_directory: F1
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F1->F2,1000,unreliable
+end_component
+
+
+component: F2
+----general info----
+source_files_directory: F2
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F2->F3,999,unreliable
+end_component
+
+
+component: F3
+----general info----
+source_files_directory: F3
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F3->F4,998,unreliable
+end_component
+
+
+component: F4
+----general info----
+source_files_directory: F4
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F4->F5,997,unreliable
+end_component
+
+
+component: F5
+----general info----
+source_files_directory: F5
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F5->F6,996,unreliable
+end_component
+
+
+component: F6
+----general info----
+source_files_directory: F6
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F6->F7,995,unreliable
+end_component
+
+
+component: F7
+----general info----
+source_files_directory: F7
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F7->F8,994,unreliable
+end_component
+
+
+component: F8
+----general info----
+source_files_directory: F8
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F8->F9,993,unreliable
+end_component
+
+
+component: F9
+----general info----
+source_files_directory: F9
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F9->F10,992,unreliable
+end_component
+
+
+component: F10
+----general info----
+source_files_directory: F10
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F10->F11,991,unreliable
+end_component
+
+
+component: F11
+----general info----
+source_files_directory: F11
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F11->F12,990,unreliable
+end_component
+
+
+component: F12
+----general info----
+source_files_directory: F12
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F12->F13,989,unreliable
+end_component
+
+
+component: F13
+----general info----
+source_files_directory: F13
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F13->F14,988,unreliable
+end_component
+
+
+component: F14
+----general info----
+source_files_directory: F14
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F14->F15,987,unreliable
+end_component
+
+
+component: F15
+----general info----
+source_files_directory: F15
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F15->F16,986,unreliable
+end_component
+
+
+component: F16
+----general info----
+source_files_directory: F16
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F16->F17,985,unreliable
+end_component
+
+
+component: F17
+----general info----
+source_files_directory: F17
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F17->F18,984,unreliable
+end_component
+
+
+component: F18
+----general info----
+source_files_directory: F18
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F18->F19,983,unreliable
+end_component
+
+
+component: F19
+----general info----
+source_files_directory: F19
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F19->F20,982,unreliable
+end_component
+
+
+component: F20
+----general info----
+source_files_directory: F20
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F20->F21,981,unreliable
+end_component
+
+
+component: F21
+----general info----
+source_files_directory: F21
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F21->F22,980,unreliable
+end_component
+
+
+component: F22
+----general info----
+source_files_directory: F22
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F22->F23,979,unreliable
+end_component
+
+
+component: F23
+----general info----
+source_files_directory: F23
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F23->F24,978,unreliable
+end_component
+
+
+component: F24
+----general info----
+source_files_directory: F24
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F24->F25,977,unreliable
+end_component
+
+
+component: F25
+----general info----
+source_files_directory: F25
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F25->F26,976,unreliable
+end_component
+
+
+component: F26
+----general info----
+source_files_directory: F26
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F26->F27,975,unreliable
+end_component
+
+
+component: F27
+----general info----
+source_files_directory: F27
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F27->F28,974,unreliable
+end_component
+
+
+component: F28
+----general info----
+source_files_directory: F28
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F28->F29,973,unreliable
+end_component
+
+
+component: F29
+----general info----
+source_files_directory: F29
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F29->F30,972,unreliable
+end_component
+
+
+component: F30
+----general info----
+source_files_directory: F30
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F30->F31,971,unreliable
+end_component
+
+
+component: F31
+----general info----
+source_files_directory: F31
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F31->F32,970,unreliable
+end_component
+
+
+component: F32
+----general info----
+source_files_directory: F32
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F32->F33,969,unreliable
+end_component
+
+
+component: F33
+----general info----
+source_files_directory: F33
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F33->F34,968,unreliable
+end_component
+
+
+component: F34
+----general info----
+source_files_directory: F34
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F34->F35,967,unreliable
+end_component
+
+
+component: F35
+----general info----
+source_files_directory: F35
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F35->F36,966,unreliable
+end_component
+
+
+component: F36
+----general info----
+source_files_directory: F36
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F36->F37,965,unreliable
+end_component
+
+
+component: F37
+----general info----
+source_files_directory: F37
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F37->F38,964,unreliable
+end_component
+
+
+component: F38
+----general info----
+source_files_directory: F38
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F38->F39,963,unreliable
+end_component
+
+
+component: F39
+----general info----
+source_files_directory: F39
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F39->F40,962,unreliable
+end_component
+
+
+component: F40
+----general info----
+source_files_directory: F40
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F40->F41,961,unreliable
+end_component
+
+
+component: F41
+----general info----
+source_files_directory: F41
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F41->F42,960,unreliable
+end_component
+
+
+component: F42
+----general info----
+source_files_directory: F42
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F42->F43,959,unreliable
+end_component
+
+
+component: F43
+----general info----
+source_files_directory: F43
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F43->F44,958,unreliable
+end_component
+
+
+component: F44
+----general info----
+source_files_directory: F44
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F44->F45,957,unreliable
+end_component
+
+
+component: F45
+----general info----
+source_files_directory: F45
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F45->F46,956,unreliable
+end_component
+
+
+component: F46
+----general info----
+source_files_directory: F46
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F46->F47,955,unreliable
+end_component
+
+
+component: F47
+----general info----
+source_files_directory: F47
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F47->F48,954,unreliable
+end_component
+
+
+component: F48
+----general info----
+source_files_directory: F48
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F48->F49,953,unreliable
+end_component
+
+
+component: F49
+----general info----
+source_files_directory: F49
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+end_component
+
+

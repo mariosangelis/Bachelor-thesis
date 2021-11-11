@@ -1,0 +1,48 @@
+---------------------------------------------------------------------------------------------------------------------------
+
+If you want to start the private registry, follow the instructions below:
+
+1) cd Desktop/thesis/registry
+
+2) docker-compose -f docker-compose.yml up -d
+
+---------------------------------------------------------------------------------------------------------------------------
+If you want to push an image to the private registry, follow the instructions below:
+
+
+1) docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
+   
+
+2) docker buildx rm container-builder
+
+
+3) create a file named config.toml
+
+Paste the following:
+
+[registry."192.168.1.105:5000"]
+  http = true
+  insecure = true
+
+4) docker buildx create --driver-opt network=host --use --config config.toml --name container-builder
+
+5) docker buildx use container-builder
+
+6) docker buildx inspect --bootstrap
+
+7) docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 --push -t localhost:5000/f1 .
+
+
+---------------------------------------------------------------------------------------------------------------------------
+If you want to pull an image from the private registry, follow the instructions below:
+
+1) nano /etc/docker/daemon.json
+
+2) Paste the following:
+
+    {
+            "insecure-registries":["192.168.1.105:5000"]
+    }
+
+
+3) sudo systemctl restart docker

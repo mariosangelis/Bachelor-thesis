@@ -1,0 +1,63 @@
+
+----global configuration----
+components: G1,G2
+scale: 1
+
+
+
+
+
+component: G1
+----general info----
+source_files_directory: G1
+
+----deployment info----
+position: cloud
+mandatory: yes
+singular: no
+
+----constraints----
+ram: 1
+cpu_cores: 2 
+sensors: camera
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+G1->G2,10,unreliable
+end_component
+
+
+
+
+
+
+component: G2
+----general info----
+source_files_directory: G2
+
+----deployment info----
+position: cloud
+mandatory: yes
+singular: no
+
+----constraints----
+ram: 1
+cpu_cores: 2
+processor: aarch64/x86_64
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+G2->G1,7,unreliable
+
+end_component
+
+
+
+

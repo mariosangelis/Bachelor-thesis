@@ -1,0 +1,108 @@
+
+----global configuration----
+components: F1,F2,F3,F4
+scale: as_many_as_possible
+
+
+
+
+
+component: F1
+----general info----
+source_files_directory: F1
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+
+----constraints----
+ram: 1
+cpu_cores: 2 
+sensors: camera
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F1->F2,10,unreliable
+end_component
+
+
+
+
+
+
+component: F2
+----general info----
+source_files_directory: F2
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+
+----constraints----
+ram: 1
+cpu_cores: 2 
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F2->F3,9,unreliable
+F2->F4,8,unreliable
+end_component
+
+
+
+
+
+
+component: F3
+----general info----
+source_files_directory: F3
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: yes
+
+----constraints----
+ram: 1
+cpu_cores: 2 
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+F3->F4,6,unreliable
+end_component
+
+
+
+component: F4
+----general info----
+source_files_directory: F4
+
+----deployment info----
+position: end/edge
+mandatory: yes
+singular: no
+
+----constraints----
+ram: 1
+cpu_cores: 2 
+
+----networking----
+ports_inside_container: 7000
+status: static
+
+----Links----
+end_component
+
+
+
